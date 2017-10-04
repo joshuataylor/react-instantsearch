@@ -930,7 +930,14 @@ babel-helpers@^6.24.1:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-jest@21.2.0, babel-jest@^21.2.0:
+babel-jest@21.2.1:
+  version "21.3.0-beta.1"
+  resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-21.3.0-beta.1.tgz#fda20d974a08a233b8bcdc91441a1c509f2b750f"
+  dependencies:
+    babel-plugin-istanbul "^4.0.0"
+    babel-preset-jest "21.3.0-beta.1"
+
+babel-jest@^21.2.0:
   version "21.2.0"
   resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-21.2.0.tgz#2ce059519a9374a2c46f2455b6fbef5ad75d863e"
   dependencies:
@@ -982,6 +989,10 @@ babel-plugin-istanbul@^4.0.0:
     find-up "^2.1.0"
     istanbul-lib-instrument "^1.7.5"
     test-exclude "^4.1.1"
+
+babel-plugin-jest-hoist@21.3.0-beta.1:
+  version "21.3.0-beta.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-21.3.0-beta.1.tgz#56710bb8955b3d1084db23adfaa94bacc890a53e"
 
 babel-plugin-jest-hoist@^21.2.0:
   version "21.2.0"
@@ -1574,6 +1585,13 @@ babel-preset-flow@^6.23.0:
   resolved "https://registry.yarnpkg.com/babel-preset-flow/-/babel-preset-flow-6.23.0.tgz#e71218887085ae9a24b5be4169affb599816c49d"
   dependencies:
     babel-plugin-transform-flow-strip-types "^6.22.0"
+
+babel-preset-jest@21.3.0-beta.1:
+  version "21.3.0-beta.1"
+  resolved "https://registry.yarnpkg.com/babel-preset-jest/-/babel-preset-jest-21.3.0-beta.1.tgz#0b97b79664b5bc12348ec5ad8844f905f65a1557"
+  dependencies:
+    babel-plugin-jest-hoist "21.3.0-beta.1"
+    babel-plugin-syntax-object-rest-spread "^6.13.0"
 
 babel-preset-jest@^21.2.0:
   version "21.2.0"
@@ -3028,7 +3046,11 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
+<<<<<<< HEAD
 create-react-class@^15.5.2, create-react-class@^15.6.0:
+=======
+create-react-class@^15.5.2, create-react-class@^15.5.x:
+>>>>>>> wip
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.2.tgz#cf1ed15f12aad7f14ef5f2dfe05e6c42f91ef02a"
   dependencies:
@@ -3683,9 +3705,15 @@ entities@^1.1.1, entities@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/entities/-/entities-1.1.1.tgz#6e5c2d0a5621b5dadaecef80b90edfb5cd7772f0"
 
+<<<<<<< HEAD
 enzyme-adapter-react-15@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/enzyme-adapter-react-15/-/enzyme-adapter-react-15-1.0.1.tgz#c1a3e5966bf1c7221c40aa0f877850175035406f"
+=======
+enzyme-adapter-react-16@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.1.tgz#066cb1735e65d8d95841a023f94dab3ce6109e17"
+>>>>>>> wip
   dependencies:
     enzyme-adapter-utils "^1.0.0"
     lodash "^4.17.4"
@@ -3899,7 +3927,7 @@ eslint-plugin-jasmine@2.8.6:
   version "2.8.6"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jasmine/-/eslint-plugin-jasmine-2.8.6.tgz#42ccf4494a9544b220b1ae4259335942aa3723ea"
 
-eslint-plugin-jest@21.2.0:
+eslint-plugin-jest@21.2.1:
   version "21.2.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-21.2.0.tgz#292044df9cf0866ad9c530e78e6528fae287b926"
 
@@ -8437,6 +8465,15 @@ prompt@^0.2.14:
     utile "0.2.x"
     winston "0.8.x"
 
+<<<<<<< HEAD
+=======
+prop-types@15.5.8:
+  version "15.5.8"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.8.tgz#6b7b2e141083be38c8595aa51fc55775c7199394"
+  dependencies:
+    fbjs "^0.8.9"
+
+>>>>>>> wip
 prop-types@15.6.0, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0:
   version "15.6.0"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.0.tgz#ceaf083022fc46b4a35f69e13ef75aed0d639856"
@@ -8767,14 +8804,14 @@ react-dom@15.4.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
 
-react-dom@15.6.2:
-  version "15.6.2"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.6.2.tgz#41cfadf693b757faf2708443a1d1fd5a02bef730"
+react-dom@16.0.0:
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.0.0.tgz#9cc3079c3dcd70d4c6e01b84aab2a7e34c303f58"
   dependencies:
-    fbjs "^0.8.9"
+    fbjs "^0.8.16"
     loose-envify "^1.1.0"
-    object-assign "^4.1.0"
-    prop-types "^15.5.10"
+    object-assign "^4.1.1"
+    prop-types "^15.6.0"
 
 react-event-listener@^0.4.5:
   version "0.4.5"
@@ -8936,15 +8973,14 @@ react@15.4.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
 
-react@15.6.2:
-  version "15.6.2"
-  resolved "https://registry.yarnpkg.com/react/-/react-15.6.2.tgz#dba0434ab439cfe82f108f0f511663908179aa72"
+react@16.0.0:
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.0.0.tgz#ce7df8f1941b036f02b2cca9dbd0cb1f0e855e2d"
   dependencies:
-    create-react-class "^15.6.0"
-    fbjs "^0.8.9"
+    fbjs "^0.8.16"
     loose-envify "^1.1.0"
-    object-assign "^4.1.0"
-    prop-types "^15.5.10"
+    object-assign "^4.1.1"
+    prop-types "^15.6.0"
 
 reactcss@^1.2.0:
   version "1.2.3"
