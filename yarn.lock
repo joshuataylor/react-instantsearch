@@ -930,14 +930,7 @@ babel-helpers@^6.24.1:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-jest@21.2.1:
-  version "21.3.0-beta.1"
-  resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-21.3.0-beta.1.tgz#fda20d974a08a233b8bcdc91441a1c509f2b750f"
-  dependencies:
-    babel-plugin-istanbul "^4.0.0"
-    babel-preset-jest "21.3.0-beta.1"
-
-babel-jest@^21.2.0:
+babel-jest@21.2.0, babel-jest@^21.2.0:
   version "21.2.0"
   resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-21.2.0.tgz#2ce059519a9374a2c46f2455b6fbef5ad75d863e"
   dependencies:
@@ -989,10 +982,6 @@ babel-plugin-istanbul@^4.0.0:
     find-up "^2.1.0"
     istanbul-lib-instrument "^1.7.5"
     test-exclude "^4.1.1"
-
-babel-plugin-jest-hoist@21.3.0-beta.1:
-  version "21.3.0-beta.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-21.3.0-beta.1.tgz#56710bb8955b3d1084db23adfaa94bacc890a53e"
 
 babel-plugin-jest-hoist@^21.2.0:
   version "21.2.0"
@@ -1585,13 +1574,6 @@ babel-preset-flow@^6.23.0:
   resolved "https://registry.yarnpkg.com/babel-preset-flow/-/babel-preset-flow-6.23.0.tgz#e71218887085ae9a24b5be4169affb599816c49d"
   dependencies:
     babel-plugin-transform-flow-strip-types "^6.22.0"
-
-babel-preset-jest@21.3.0-beta.1:
-  version "21.3.0-beta.1"
-  resolved "https://registry.yarnpkg.com/babel-preset-jest/-/babel-preset-jest-21.3.0-beta.1.tgz#0b97b79664b5bc12348ec5ad8844f905f65a1557"
-  dependencies:
-    babel-plugin-jest-hoist "21.3.0-beta.1"
-    babel-plugin-syntax-object-rest-spread "^6.13.0"
 
 babel-preset-jest@^21.2.0:
   version "21.2.0"
@@ -3047,9 +3029,13 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     sha.js "^2.4.8"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 create-react-class@^15.5.2, create-react-class@^15.6.0:
 =======
 create-react-class@^15.5.2, create-react-class@^15.5.x:
+>>>>>>> wip
+=======
+create-react-class@^15.5.2:
 >>>>>>> wip
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.2.tgz#cf1ed15f12aad7f14ef5f2dfe05e6c42f91ef02a"
@@ -3927,7 +3913,7 @@ eslint-plugin-jasmine@2.8.6:
   version "2.8.6"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jasmine/-/eslint-plugin-jasmine-2.8.6.tgz#42ccf4494a9544b220b1ae4259335942aa3723ea"
 
-eslint-plugin-jest@21.2.1:
+eslint-plugin-jest@21.2.0:
   version "21.2.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-21.2.0.tgz#292044df9cf0866ad9c530e78e6528fae287b926"
 
@@ -8466,6 +8452,7 @@ prompt@^0.2.14:
     winston "0.8.x"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 prop-types@15.5.8:
   version "15.5.8"
@@ -8473,6 +8460,8 @@ prop-types@15.5.8:
   dependencies:
     fbjs "^0.8.9"
 
+>>>>>>> wip
+=======
 >>>>>>> wip
 prop-types@15.6.0, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0:
   version "15.6.0"
@@ -8920,9 +8909,9 @@ react-style-proptype@^3.0.0:
   dependencies:
     prop-types "^15.5.4"
 
-react-tap-event-plugin@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/react-tap-event-plugin/-/react-tap-event-plugin-2.0.1.tgz#316beb3bc6556e29ec869a7293e89c826a9074d2"
+react-tap-event-plugin@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/react-tap-event-plugin/-/react-tap-event-plugin-3.0.2.tgz#280371677b881c31376e0027a0b86d2c6de039ee"
   dependencies:
     fbjs "^0.8.6"
 
